@@ -2,7 +2,7 @@
 
 This repository was originally given as a tutorial at EACL 2014 by Alex Huth.
 
-`Tia_replication.ipynb` uses this repository as the code base to replicate the semantic model in Huth et al. (2016) (full citation see below). Full dataset comes from [this repository](https://gin.g-node.org/gallantlab/story_listening/src/master) and should be moved under the `data` directory in the current repository along with the data files described below in the Installation.
+`Tia_replication.ipynb` uses this repository as the code base to replicate the semantic model in Huth et al. (2016) (full citation see below). Full dataset used for replication comes from [this repository](https://gin.g-node.org/gallantlab/story_listening/src/master). To fetch these data, see Installation.
 
 In `speechmodeltutorial.ipynb` you will step through a voxel-wise modeling analysis. You will use computational models to extract semantic features from a natural speech stimulus. Then these features will be used to build linear models of fMRI data, and model weights and prediction performance will be visualized.
 
