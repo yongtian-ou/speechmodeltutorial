@@ -161,7 +161,7 @@ def lanczosfun(cutoff, t, window=3):
     val = window * np.sin(np.pi*t) * np.sin(np.pi*t/window) / (np.pi**2 * t**2)
     val[t==0] = 1.0
     val[np.abs(t)>window] = 0.0
-    return val# / (val.sum() + 1e-10)
+    return val #/ (val.sum() + 1e-10)
 
 def expinterp2D(data, oldtime, newtime, theta):
     intmat = np.zeros((len(newtime), len(oldtime)))
