@@ -4,7 +4,11 @@ __pycache__/
 *$py.class
 
 # Data and output files
-data/
+data/responses/
+data/features/
+data/mappers/
+data/*.hf5
+data/.DS_Store
 results/
 
 # C extensions
